@@ -1,3 +1,5 @@
 {
-  "values": ["swing:load"]
+	"values": [
+    	"#load:_private/load"
+	]
 }
