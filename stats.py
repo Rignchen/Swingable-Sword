@@ -3,6 +3,7 @@ from os import listdir, system
 maxi = 0
 bigest = ""
 bad = []
+mt = []
 system("cls")
 
 def surch(extension:list[str],path:str,function = None):
@@ -34,6 +35,8 @@ def max_linie(mcfunction):
 	for a in b:
 		if a[0] != "#" and a != "\n" and a != "":
 			out += 1
+	if out == 0:
+		mt.append(mcfunction)
 	if out >= maxi:
 		maxi = out
 		bigest = mcfunction
@@ -45,4 +48,5 @@ print("recipes:" + str(surch(["json"],"data/swing/recipes")))
 print("loot_tables:" + str(surch(["json"],"data/swing/loot_tables")))
 print("plugin:" + str(surch(["json"],"data/swing/tags/functions")))
 if bad != []:print("/!\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
+if mt != []:print("/!\ " + str(len(mt)) + " fonctions aren't comment: " + str(mt))
 input()

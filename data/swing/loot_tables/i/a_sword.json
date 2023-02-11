@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "copy_nbt",
+							"source": {
+								"type": "storage",
+								"source": "swing:items"
+							},
+							"ops": [
+								{
+									"op": "merge",
+									"source": "all.a_sword.tag",
+									"target": "{}"
+								}
+							]
+						}
+					]
+                }
+            ]
+        }
+    ]
+}
