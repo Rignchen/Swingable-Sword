@@ -16,7 +16,7 @@
 							"ops": [
 								{
 									"op": "merge",
-									"source": "all.a_sword.tag",
+									"source": "all.diamond_sword.tag",
 									"target": "{}"
 								}
 							]

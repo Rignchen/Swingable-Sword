@@ -1,0 +1,12 @@
+{
+	"function": "set_count",
+	"count": 0,
+	"conditions": [
+		{
+			"condition": "match_tool",
+			"predicate": {
+				"durability": 1
+			}
+		}
+	]
+}
