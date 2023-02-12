@@ -13,7 +13,7 @@ scoreboard players operation #temp1 swing.use = #temp swing.use
 
 #damage
 tag @s add swing.hit
-execute anchored eyes positioned ^ ^ ^1 run function swing:action/swing/particle/
+execute anchored eyes positioned ^ ^ ^1 rotated ~ 0 run function swing:action/swing/particle/
 tag @e[distance=..2] remove swing.hit
 tag @s remove swing.hit
 
