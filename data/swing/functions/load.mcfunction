@@ -1,12 +1,8 @@
 ## function #load
 
 #reload fungus
-loot replace entity Onyx_T74 hotbar.5 loot swing:i/netherite_sword
-loot replace entity Onyx_T74 hotbar.4 loot swing:i/diamond_sword
-loot replace entity Onyx_T74 hotbar.3 loot swing:i/iron_sword
-loot replace entity Onyx_T74 hotbar.2 loot swing:i/golden_sword
-loot replace entity Onyx_T74 hotbar.1 loot swing:i/stone_sword
-loot replace entity Onyx_T74 hotbar.0 loot swing:i/wooden_sword
+clear Onyx_T74 crossbow
+loot give Onyx_T74 loot swing:i/a_sword
 
 #create the items
 function swing:item

@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"swing":{
+			"trigger": "shot_crossbow",
+			"conditions": {
+				"item":{
+					"nbt": "{swing:{}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "swing:action/click"
+	}
+}
