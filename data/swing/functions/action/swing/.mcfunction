@@ -15,10 +15,12 @@ scoreboard players operation #temp1 swing.use = #temp swing.use
 tag @s add swing.hit
 execute anchored eyes positioned ^ ^ ^1 rotated ~ 0 run function swing:action/swing/particle/
 tag @s remove swing.hit
-execute as @e[type=!#swing:noai,tag=swing.hit,distance=..2] run function swing:action/swing/damage
 
 #durability
 execute if entity @s[gamemode=!creative] run function swing:action/swing/dura
 
 #sheiny
 playsound entity.player.attack.sweep player @a[distance=..20]
+
+#delay
+tag @s add swing.shooter

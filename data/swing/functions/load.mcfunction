@@ -1,11 +1,11 @@
 ## function #load
 
-#reload fungus
-clear Onyx_T74 crossbow
-loot give Onyx_T74 loot swing:i/a_sword
-
 #create the items
 function swing:item
+
+#reload item
+clear Onyx_T74 crossbow
+loot give Onyx_T74 loot swing:i/a_sword
 
 #define varriables
 scoreboard objectives add swing.cooldown dummy
