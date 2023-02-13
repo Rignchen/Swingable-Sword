@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"offhand": {
+							"nbt": "{swing:{}}"
+						}
+					}
+				}
+			}
+        }
+    },
+	"rewards": {
+		"function": "swing:action/offhand"
+	}
+}

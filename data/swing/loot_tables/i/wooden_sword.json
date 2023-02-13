@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "name": "minecraft:wooden_sword",
 					"functions": [
 						{
 							"function": "copy_nbt",
@@ -16,7 +16,7 @@
 							"ops": [
 								{
 									"op": "merge",
-									"source": "all.a_sword.tag",
+									"source": "all.wooden_sword.tag",
 									"target": "{}"
 								}
 							]

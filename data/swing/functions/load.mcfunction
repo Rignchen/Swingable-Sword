@@ -1,14 +1,17 @@
 ## function #load
 
 #reload fungus
-clear Onyx_T74 warped_fungus_on_a_stick
-loot give Onyx_T74 loot swing:i/diamond_sword
+loot replace entity Onyx_T74 hotbar.5 loot swing:i/netherite_sword
+loot replace entity Onyx_T74 hotbar.4 loot swing:i/diamond_sword
+loot replace entity Onyx_T74 hotbar.3 loot swing:i/iron_sword
+loot replace entity Onyx_T74 hotbar.2 loot swing:i/golden_sword
+loot replace entity Onyx_T74 hotbar.1 loot swing:i/stone_sword
+loot replace entity Onyx_T74 hotbar.0 loot swing:i/wooden_sword
 
 #create the items
 function swing:item
 
 #define varriables
-scoreboard objectives add swing.fungus used:warped_fungus_on_a_stick
 scoreboard objectives add swing.cooldown dummy
 scoreboard objectives add swing.use dummy
 
